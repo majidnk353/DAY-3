@@ -70,8 +70,8 @@ print('l' not in x)#return True bcz char 'l' not exist in x
 #------------------------------------------------------------------------------
 #membership operator(in operator)
 x="this is a text"
-print("tex" in x)
-print("is " in x)#False bcz two spaces not included in x
+print("tex" in x)#true
+print("is " in x)#true
 #membership operator(not in operator)
 print("tex" not in x)
 print("is " in x)
